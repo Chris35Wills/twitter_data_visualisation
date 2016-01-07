@@ -1,6 +1,6 @@
 #Notes for twitter project
 
-##Purpse of exercise
+##Purpose of development exercise
 
 1. Access some data 
 2. Analyse that data somehow
