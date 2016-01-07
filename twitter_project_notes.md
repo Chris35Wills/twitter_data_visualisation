@@ -14,29 +14,30 @@ Lots of people have played with twitter data, visualising locations of "good mor
 In terms of a rough plan:
 
 -Download some twitter data
+
 -Search the data and pull out specific hash tags, time stamps and geolocations
+
 -Plot geodata (using basemap) in space
+
 -Plot geodata (using basemap) in space and time
+
 -Incorporate the visualisation over a rotating globe with a timer on screen?
 
 So this could result in a few modules:
 
-twitter_analysis.py
+	twitter_analysis.py
+		- accessing data
+		- subsetting/querying
+		- creating xyz(time) files
 
-	- accessing data
-	- subsetting/querying
-	- creating xyz(time) files
+	visualisation.py
+		- develop a globe map
+		- get it rotating (embed this in a browser?)
+		- take in data from twitter_analysis.py
 
-visualisation.py
-
-	- develop a globe map
-	- get it rotating (embed this in a browser?)
-	- take in data from twitter_analysis.py
-
-main.py
-
-	- call all modules
-	- only this has to be run 
+	main.py
+		- call all modules
+		- only this has to be run 
 
 ##Project ideas
 
@@ -54,10 +55,13 @@ Use hashtag data to consider how these memes spread through time and space relat
 
 ## Useful packages:
 
-pandas 
-numpy
-basemap
-tweepy (pip install tweepy==3.5.0)
+[pandas](http://pandas.pydata.org/)
+
+[numpy](http://www.numpy.org/)
+
+[basemap](http://matplotlib.org/basemap/)
+
+[tweepy]() (pip install tweepy==3.5.0 -- see [here](http://marcobonzanini.com/2015/03/02/mining-twitter-data-with-python-part-1/))
 
 ##Helpful links:
 
