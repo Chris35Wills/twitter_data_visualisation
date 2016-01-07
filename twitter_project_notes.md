@@ -49,7 +49,7 @@ Possible to map the recent flood events in the UK by considering the spread of h
 
 ### Meme ideas
 
-Memes are abundant with twitter, facebook etc. and are more and more seen as empathy buttons (see [here for example](http://www.theatlantic.com/entertainment/archive/2015/11/pray-for-paris-empathy-facebook/416196/)). Otehr sar emore skeptical about their use.
+Memes are abundant with twitter, facebook etc. and are more and more seen as empathy buttons (see [here for example](http://www.theatlantic.com/entertainment/archive/2015/11/pray-for-paris-empathy-facebook/416196/)). However, others are more skeptical about their use.
 
 Could use hashtag data to consider how these memes spread through time and space relative to specific events?
 
