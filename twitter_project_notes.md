@@ -38,11 +38,19 @@ main.py
 	- call all modules
 	- only this has to be run 
 
-## Meme idea
+##Project ideas
+
+Just like the [original cholera map](https://en.wikipedia.org/wiki/1854_Broad_Street_cholera_outbreak), it would be inetresting to see how people respond to events through hashtags.
+
+### Natural disaster reponse
+
+Possible to map the recent flood events in the UK by considering the spread of hashtags like #flood or #stormfrank?
+
+### Meme idea
 
 Memes are abundant with twitter, facebook etc. and as positive as many see them, others are more skeptical, arguing that some think more of the ME in MEME (see [here for example](http://www.theatlantic.com/entertainment/archive/2015/11/pray-for-paris-empathy-facebook/416196/)).
 
-Twitter is a key vector for memes, and hashtag data could be used to consider how these memes spread through time and space. 
+Use hashtag data to consider how these memes spread through time and space relative to specific events?
 
 ## Useful packages:
 
