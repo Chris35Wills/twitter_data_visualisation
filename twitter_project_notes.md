@@ -1,0 +1,66 @@
+#Notes for twitter project
+
+##Purpse of exercise
+
+1. Access some data 
+2. Analyse that data somehow
+3. Explain + visualise results
+4. Enable interactivity
+
+##Loose plan
+
+Lots of people have played with twitter data, visualising locations of "good moring" hashtags etc. as exemplified [here](http://mashable.com/2009/06/30/gorgeous-twitter-visualizations/#vSboAlmalgqC). So perhaps we could use something topical. 
+
+In terms of a rough plan:
+
+-Download some twitter data
+-Search the data and pull out specific hash tags, time stamps and geolocations
+-Plot geodata (using basemap) in space
+-Plot geodata (using basemap) in space and time
+-Incorporate the visualisation over a rotating globe with a timer on screen?
+
+So this could result in a few modules:
+
+twitter_analysis.py
+
+	- accessing data
+	- subsetting/querying
+	- creating xyz(time) files
+
+visualisation.py
+
+	- develop a globe map
+	- get it rotating (embed this in a browser?)
+	- take in data from twitter_analysis.py
+
+main.py
+
+	- call all modules
+	- only this has to be run 
+
+## Meme idea
+
+Memes are abundant with twitter, facebook etc. and as positive as many see them, others are more skeptical, arguing that some think more of the ME in MEME (see [here for example](http://www.theatlantic.com/entertainment/archive/2015/11/pray-for-paris-empathy-facebook/416196/)).
+
+Twitter is a key vector for memes, and hashtag data could be used to consider how these memes spread through time and space. 
+
+## Useful packages:
+
+pandas 
+numpy
+basemap
+tweepy (pip install tweepy==3.5.0)
+
+##Helpful links:
+
+[Twitter data visualisations]( http://mashable.com/2009/06/30/gorgeous-twitter-visualizations/#vSboAlmalgqC )
+
+[Accessing hashtag data (discussion)](https://www.quora.com/What-is-the-best-tool-to-download-and-archive-Twitter-data-of-certain-hashtags-and-mentions-for-academic-research)
+
+[Twitter mining with Python part 1](http://marcobonzanini.com/2015/03/02/mining-twitter-data-with-python-part-1/)
+
+[Twitter mining with python part 2](http://marcobonzanini.com/2015/03/09/mining-twitter-data-with-python-part-2/)
+
+[More resources for accessing twitter with python](https://dev.twitter.com/overview/api/twitter-libraries)
+
+[Rotating globe using basemap (not tested yet!)](https://gist.github.com/jdherman/7282653)
