@@ -47,11 +47,11 @@ Just like the [original cholera map](https://en.wikipedia.org/wiki/1854_Broad_St
 
 Possible to map the recent flood events in the UK by considering the spread of hashtags like #flood or #stormfrank?
 
-### Meme idea
+### Meme ideas
 
-Memes are abundant with twitter, facebook etc. and as positive as many see them, others are more skeptical, arguing that some think more of the ME in MEME (see [here for example](http://www.theatlantic.com/entertainment/archive/2015/11/pray-for-paris-empathy-facebook/416196/)).
+Memes are abundant with twitter, facebook etc. and are more and more seen as empathy buttons (see [here for example](http://www.theatlantic.com/entertainment/archive/2015/11/pray-for-paris-empathy-facebook/416196/)). Otehr sar emore skeptical about their use.
 
-Use hashtag data to consider how these memes spread through time and space relative to specific events?
+Could use hashtag data to consider how these memes spread through time and space relative to specific events?
 
 ## Useful packages:
 
