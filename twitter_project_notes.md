@@ -41,7 +41,7 @@ So this could result in a few modules:
 
 ##Project ideas
 
-Just like the [original cholera map](https://en.wikipedia.org/wiki/1854_Broad_Street_cholera_outbreak), it would be inetresting to see how people respond to events through hashtags.
+Just like the [original cholera map](https://en.wikipedia.org/wiki/1854_Broad_Street_cholera_outbreak), it would be inetresting to see how things play out through the response of people to specific events through hashtags.
 
 ### Natural disaster reponse
 
@@ -49,9 +49,9 @@ Possible to map the recent flood events in the UK by considering the spread of h
 
 ### Meme ideas
 
-Memes are abundant with twitter, facebook etc. and are more and more seen as empathy buttons (see [here for example](http://www.theatlantic.com/entertainment/archive/2015/11/pray-for-paris-empathy-facebook/416196/)). However, others are more skeptical about their use.
+Memes are used in abundance with twitter, facebook etc. and are more and more often used as empathy buttons (see [here for example](http://www.theatlantic.com/entertainment/archive/2015/11/pray-for-paris-empathy-facebook/416196/)) following certain situations. However, others are more skeptical about their use.
 
-Could use hashtag data to consider how these memes spread through time and space relative to specific events?
+We could use hashtag data to consider how these memes spread through time and space relative to specific situations?
 
 ## Useful packages:
 
