@@ -53,6 +53,8 @@ Memes are used in abundance with twitter, facebook etc. and are more and more of
 
 We could use hashtag data to consider how these memes spread through time and space relative to specific situations?
 
+Consider use of sentiment analysis.
+
 ## Useful packages:
 
 [pandas](http://pandas.pydata.org/)
