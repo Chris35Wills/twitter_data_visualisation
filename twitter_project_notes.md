@@ -33,11 +33,13 @@ So this could result in a few modules:
 	visualisation.py
 		- develop a globe map
 		- get it rotating (embed this in a browser?)
+		- run on test data before twitter_analysis module 
 		- take in data from twitter_analysis.py
 
 	main.py
 		- call all modules
 		- only this has to be run 
+		-
 
 ##Project ideas
 
@@ -78,3 +80,9 @@ Consider use of sentiment analysis.
 [More resources for accessing twitter with python](https://dev.twitter.com/overview/api/twitter-libraries)
 
 [Rotating globe using basemap (not tested yet!)](https://gist.github.com/jdherman/7282653)
+
+## Code Q&A
+
+[Using the twitter search API](https://dev.twitter.com/rest/public/search)
+[Using tweepy's search API](https://twittercommunity.com/t/how-to-use-the-tweepys-search-api/22105)
+[Using tweepy's search API (stack exchange query)](http://stackoverflow.com/questions/27319476/python-tweepy-find-all-tweets-in-the-netherlands)
